@@ -2,7 +2,6 @@ package com.example.greenteam.eventfulevents.Model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.example.greenteam.eventfulevents.Events;
 
 /**
  * Created by NB on 2016-11-17.

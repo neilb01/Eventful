@@ -1,11 +1,11 @@
 package com.example.greenteam.eventfulevents.API;
 
-import retrofit.http.GET;
-import retrofit.http.Query;
+
+import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 import com.example.greenteam.eventfulevents.Model.EventfulEvent;
 import com.example.greenteam.eventfulevents.Model.EventfulModel;
-import com.squareup.okhttp.Call;
 
 /**
  * Created by NB on 2016-11-17.
@@ -14,6 +14,6 @@ import com.squareup.okhttp.Call;
 public interface EventfulAPI {
 
     @GET("json/events/search?app_key=R5Kp5grL2bb8CqVt")
-    retrofit.Call<EventfulModel> EventfulList(@Query("keywords") String keyword,
-                                              @Query("location") String location);
+    retrofit2.Call<EventfulModel> EventfulList(@Query("keywords") String keyword,
+                                               @Query("location") String location);
 }
