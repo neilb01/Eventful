@@ -1,4 +1,4 @@
-package com.example.greenteam.eventfulevents;
+package com.example.greenteam.eventfulevents.Model;
 
 /**
  * Created by NB on 2016-11-17.
