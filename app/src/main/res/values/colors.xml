@@ -4,7 +4,15 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-
     <color name="colorGrey">#707070</color>
     <color name="colorGreyLight">#8A8A8A</color>
+
+    <color name="color_menu1">#2196F3</color>
+    <color name="color_menu2">#1DE9B6</color>
+    <color name="color_menu3">#7CB342</color>
+    <color name="color_menu4">#FF9800</color>
+    <color name="color_menu5">#795548</color>
+    <color name="color_menu6">#7E57C2</color>
+    <color name="color_menu7">#CDDC39</color>
+    <color name="color_menu8">#FF5722</color>
 </resources>
