@@ -11,4 +11,7 @@ public interface APIListService {
                                      @Query("location") String location,
                                      @Query("page_number") String page_number);
 
+    @GET("json/categories/list?app_key=R5Kp5grL2bb8CqVt")
+    public Call<String> CategoryList();
+
 }
