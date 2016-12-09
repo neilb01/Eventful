@@ -7,7 +7,7 @@ import retrofit2.http.Query;
 public interface APIListService {
 
     @GET("json/events/search?app_key=R5Kp5grL2bb8CqVt")
-    public Call<String> EventfulList(@Query("keywords") String keyword,
+    public Call<String> EventfulList(@Query("category") String keyword,
                                      @Query("location") String location,
                                      @Query("page_number") String page_number);
 

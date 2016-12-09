@@ -48,7 +48,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchView
         public SearchViewHolder(View v) {
 
             super(v);
-            llMain = (LinearLayout) v.findViewById(R.id.llMain);
+            llMain      = (LinearLayout) v.findViewById(R.id.llMain);
             llMain.setOnClickListener(listener);
             title       = (TextView) v.findViewById(R.id.tvTitle);
             date        = (TextView) v.findViewById(R.id.tvDate);

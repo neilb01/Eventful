@@ -1,7 +1,5 @@
 package com.example.greenteam.eventfulevents.Retrofit.utility;
 
-import android.util.Log;
-
 import com.example.greenteam.eventfulevents.Retrofit.Interface.APIListService;
 import com.example.greenteam.eventfulevents.Retrofit.application.APIError;
 import com.example.greenteam.eventfulevents.Retrofit.application.ErrorUtils;
@@ -60,7 +58,7 @@ public  class RetrofitUtil {
                 @Override
                 public void onResponse(Call<String> call, Response<String> response) {
 
-                    Log.v("Tag", "Response=>" + response.body());
+//                    Log.v("Tag", "Response=>" + response.body());
                     if (response.isSuccessful()) {
 
                         cls = new Gson().fromJson(response.body(), cls.getClass());

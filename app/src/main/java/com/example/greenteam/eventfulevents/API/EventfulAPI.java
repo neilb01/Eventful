@@ -14,6 +14,6 @@ import com.example.greenteam.eventfulevents.Model.EventfulModel;
 public interface EventfulAPI {
 
     @GET("json/events/search?app_key=R5Kp5grL2bb8CqVt")
-    retrofit2.Call<EventfulModel> EventfulList(@Query("keywords") String keyword,
+    retrofit2.Call<EventfulModel> EventfulList(@Query("category") String keyword,
                                                @Query("location") String location);
 }

@@ -9,9 +9,10 @@ public class CategoriesModel {
 
     public List<Category> category;
 
-    public class Category {
-        public String name;
-        public String eventCount;
-        public String id;
+    public class Category
+    {
+        public String   name;
+        public String   eventCount;
+        public String   id;
     }
 }

@@ -1,5 +1,6 @@
 package com.example.greenteam.eventfulevents.Model;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -15,7 +16,7 @@ public class EventModel {
 
         public List<Event> event;
 
-        public class Event {
+        public class Event implements Serializable {
 
             public String title;
             public String description;
