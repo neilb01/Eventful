@@ -9,6 +9,7 @@ import java.util.List;
 public class EventModel {
 
     public Events events;
+    public int pageCount;
 
     public class Events {
 
